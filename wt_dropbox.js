@@ -1,6 +1,6 @@
 const dropboxV2Api = require('dropbox-v2-api');
 const fs=require('fs');
-const tk="";
+const tk=require('./tk.json');
 const dropbox = dropboxV2Api.authenticate({
     token: tk
 });
