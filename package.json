@@ -1,0 +1,17 @@
+{
+  "name": "wt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wantthat_v01.js",
+  "dependencies": {
+    "dropbox-v2-api": "^2.1.11",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
