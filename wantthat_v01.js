@@ -49,7 +49,7 @@ app.post('/upload', function(req, res) {
     if (err)
       return res.status(500).send(err);
  
-    //wt_dropbox.upload(path.join('./',sampleFile.name),sampleFile.name);
+    wt_dropbox.upload(path.join('./',sampleFile.name),sampleFile.name);
     res.send('File uploaded!');
   });
 });
